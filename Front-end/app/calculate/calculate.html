@@ -1,0 +1,19 @@
+<div >
+    <div >
+        <p style=" margin-left:1.7em;"> <u> <strong>Multiplication Tool :</strong> Enter Numbers to Multiply </u></p>
+   
+    </div>
+    
+    <div ng-controller="calculateCtrl">
+    <input type="text" ng-model="Num1" style="margin-left:2em" ng-change="change1(Num1)" ng-style="flag1 == false ? {'color': 'red','font-weight':'bold'} : {'color': 'black'}"/>
+     x 
+     <input type="text" ng-model="Num2"  ng-change="change2(Num2)" ng-style="flag2 == false ? {'color': 'red','font-weight':'bold'} : {'color': 'black'}"/> 
+    = 
+    <button type="button" value="multiply" ng-click="multiply(Num1,Num2)"  ng-disabled="buttonFlag">Button</button>
+    <input type="text" ng-model="mul" />
+    </div>
+</div>
+
+<p style="margin-left: 2em"> Note: <br>
+    1. Valid inputs - Only non-negative numbers <br>
+   2. Invalid inputs will deter calculation and will be highlighted in <em style="color: red">RED</em> </p>
