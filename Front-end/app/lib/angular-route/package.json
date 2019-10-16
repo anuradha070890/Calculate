@@ -2,7 +2,7 @@
   "_args": [
     [
       "angular-route@1.7.5",
-      "/Users/anuradha.p.agrawal/Desktop/test/angular-seed"
+      "/Users/anuradha.p.agrawal/Desktop/github/Calculate/Front-end"
     ]
   ],
   "_from": "angular-route@1.7.5",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/angular-route/-/angular-route-1.7.5.tgz",
   "_spec": "1.7.5",
-  "_where": "/Users/anuradha.p.agrawal/Desktop/test/angular-seed",
+  "_where": "/Users/anuradha.p.agrawal/Desktop/github/Calculate/Front-end",
   "author": {
     "name": "Angular Core Team",
     "email": "angular-core+npm@google.com"
